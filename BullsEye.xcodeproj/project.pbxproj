@@ -13,6 +13,7 @@
 		CB39964328928EE500D0BE49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB39964128928EE500D0BE49 /* Main.storyboard */; };
 		CB39964528928EE600D0BE49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB39964428928EE600D0BE49 /* Assets.xcassets */; };
 		CB39964828928EE600D0BE49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB39964628928EE600D0BE49 /* LaunchScreen.storyboard */; };
+		CB399650289708F400D0BE49 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB39964F289708F400D0BE49 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CB39964428928EE600D0BE49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB39964728928EE600D0BE49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB39964928928EE600D0BE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB39964F289708F400D0BE49 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		CB39962F28928EE500D0BE49 = {
 			isa = PBXGroup;
 			children = (
+				CB39964F289708F400D0BE49 /* AboutViewController.swift */,
 				CB39963A28928EE500D0BE49 /* BullsEye */,
 				CB39963928928EE500D0BE49 /* Products */,
 			);
@@ -140,6 +143,7 @@
 			files = (
 				CB39964028928EE500D0BE49 /* ViewController.swift in Sources */,
 				CB39963C28928EE500D0BE49 /* AppDelegate.swift in Sources */,
+				CB399650289708F400D0BE49 /* AboutViewController.swift in Sources */,
 				CB39963E28928EE500D0BE49 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +296,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -320,6 +325,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
